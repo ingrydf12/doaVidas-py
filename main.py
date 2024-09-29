@@ -43,7 +43,7 @@ Programa direcionado ao espaço do doador para entender e incentivar a doação 
 def doacaoInfo():
     print("""
 ________________________________________________________________________________________
-𝗤𝗨𝗘𝗠 𝗣𝗢𝗗𝗘 𝗗𝗢𝗔𝗥?
+QUEM PODE DOAR?
 
 Se você estiver saudável, bem alimentado antes da doação, pesar acima de 50kg, tiver entre 16 a 69 anos
 e apresentar documento oficial com foto, você pode doar. Caso você tenha idade entre 16 e 17 anos, você precisa
@@ -62,7 +62,7 @@ ________________________________________________________________________________
 def beneficiosProcedimentos():
     print("""
 ________________________________________________________________________________________
-𝗕𝗘𝗡𝗘𝗙Í𝗖𝗜𝗢𝗦 𝗘 𝗣𝗥𝗢𝗖𝗘𝗗𝗜𝗠𝗘𝗡𝗧𝗢𝗦
+BENEFÍCIOS E PROCEDIMENTOS:
 
 - Benefícios:
   Doar sangue ajuda a salvar vidas e proporciona ao doador a oportunidade de realizar exames laboratoriais gratuitos, como verificação de tipos sanguíneos, doenças infecciosas e o bem-estar geral.
@@ -102,7 +102,7 @@ ________________________________________________________________________________
 def elegibilidade():
     print("""
 ________________________________________________________________________________________
-𝗘𝗟𝗘𝗚𝗜𝗕𝗜𝗟𝗜𝗗𝗔𝗗𝗘
+ELEGIBILIDADE
 
 Responda a algumas das perguntas básicas para saber se você pode doar ou não.
 
@@ -151,7 +151,7 @@ Responda a algumas das perguntas básicas para saber se você pode doar ou não.
 def locaisDoacao():
     print("""
 ________________________________________________________________________________________
-𝗟𝗢𝗖𝗔𝗜𝗦 𝗗𝗘 𝗗𝗢𝗔𝗖̧𝗔̃𝗢 𝗘𝗠 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗭𝗔
+LOCAIS DE DOAÇÃO EM FORTALEZA
 
 
 ----
@@ -186,7 +186,7 @@ ________________________________________________________________________________
 def dicasDoadores():
     print("""
 ________________________________________________________________________________________
-𝗗𝗜𝗖𝗔𝗦 𝗣𝗔𝗥𝗔 𝗗𝗢𝗔𝗗𝗢𝗥𝗘𝗦
+DICAS PARA DOADORES
 
 - Beba bastante líquido antes e depois da doação.
 - Alimente-se bem antes de doar, priorizando alimentos leves e nutritivos.
