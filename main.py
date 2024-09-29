@@ -1,11 +1,14 @@
 #MARK: - Menu
 def menu():
     while True:
-        print("""
+        print(r"""
 --------
-
-DOA VIDAS
-
+  ____            __     ___     _           
+ |  _ \  ___   __ \ \   / (_) __| | __ _ ___ 
+ | | | |/ _ \ / _` \ \ / /| |/ _` |/ _` / __|
+ | |_| | (_) | (_| |\ V / | | (_| | (_| \__ |
+ |____/ \___/ \__,_| \_/  |_|\__,_|\__,_|___/
+                                             
 Programa direcionado ao espaço do doador para entender e incentivar a doação de sangue em Fortaleza.
                                                                                                           
    MENU INTERATIVO: PARA ONDE VOCÊ QUER IR?
@@ -64,8 +67,33 @@ ________________________________________________________________________________
 - Benefícios:
   Doar sangue ajuda a salvar vidas e proporciona ao doador a oportunidade de realizar exames laboratoriais gratuitos, como verificação de tipos sanguíneos, doenças infecciosas e o bem-estar geral.
 
-- Procedimentos:
-  A doação é simples e segura. Antes de doar, você passará por uma triagem para verificar se está apto. Após a doação, será orientado a descansar por alguns minutos e ingerir líquidos.
+Etapas da doação:
+1. AGENDAMENTO -> Você deve agendar online a sua doação no portal do doador, escolhendo dia, horário e local.
+
+2. CADASTRO -> Você precisa apresentar um documento de identificação oficial com foto ou cópia autenticada (RG, carteira nacional de habilitação, carteira de trabalho, carteira profissional emitida por classe, certificado de reservista ou passaporte)
+Além disso, é necessário deixar um meio de contato com o doador. 
+OBS: TAMBÉM SÃO ACEITOS OUTROS TIPOS DE DOCUMENTOS DIGITAIS COMO ETITULO, CARTEIRA DIGITAL...
+
+3. LANCHE ->  Você como doador é convidado a realizar o pré-lanche, para manter o nível de hidratação e também os níveis de açúcar adequados para a coleta.
+
+4. PRÉ-TRIAGEM -> Verificação básica por meio de exames de verificação de pressão arterial, pulso, temperatura, dosagem de hemoglobina e verificação de peso.
+
+5. TRIAGEM CLÍNICA -> Perguntas individuais e sigilosas feitas ao possível doador para verificar se é apto a realizar a doação de sangue naquele momento ou não. Necessário ser respondidas com sinceridade e honestidade.
+
+6. VOTO DE AUTO-EXCLUSÃO -> Totalmente sigiloso, permite ao candidato confirmar ou negar as informações prestadas sem expor diretamente suas respostas ao profissional da triagem.
+
+7. COLETA DE SANGUE -> O doador é orientado a lavar os braços (local da punção) com água e sabão, caso o posto de coleta ou coleta externa não tenha lavatório, é feita assepsia do local da punção, o que traz segurança à coleta.
+O volume máximo de sangue colhido é de 460 ml em um tempo médio de 7 a 10 minutos.
+
+8. LANCHE -> Após a coleta de sangue, o doador é novamente convidado a fazer um lanche e aguardar, no mínimo, 15 minutos sentado no posto de coleta.
+
+9. ENTREGA DE CARTEIRINHA ->  Em caso de primeira doação, o doador recebe a carteirinha de doador de primeira vez.
+
+10. EXAMES REALIZADOS NO SANGUE COLETADO -> Os exames realizados no sangue coletado são: tipagem sanguínea, eletroforese de hemoglobina e testes para hepatite B e C, sífilis, doença de Chagas, HIV e HTLV I e II.
+
+11. RESULTADO DE EXAMES -> Cerca de 45 dias após a doação, o voluntário pode acessar o resultado dos exames sorológicos pelo portal do doador, através do site: doador.hemoce.ce.gov.br.
+. Caso seja necessário esclarecimento sobre os resultados, o voluntário será convidado a comparecer novamente ao Hemocentro para coletar uma nova amostra de sangue e receber orientações.
+
 ________________________________________________________________________________________
 """)
 
@@ -123,7 +151,31 @@ Responda a algumas das perguntas básicas para saber se você pode doar ou não.
 def locaisDoacao():
     print("""
 ________________________________________________________________________________________
-𝗟𝗢𝗖𝗔𝗜𝗦 𝗗𝗘 𝗗𝗢𝗔𝗖̧𝗔̃𝗢 𝗘𝗠 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗶𝗥𝗔
+𝗟𝗢𝗖𝗔𝗜𝗦 𝗗𝗘 𝗗𝗢𝗔𝗖̧𝗔̃𝗢 𝗘𝗠 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗭𝗔
+
+
+----
+SEDE HEMOCE
+Av. José Bastos, 3390 – Rodolfo Teófilo – CEP: 60.431-086 – Fortaleza-CE
+
+
+Horário de Funcionamento:
+-> 7h às 17h30min, de segunda a sexta-feira
+-> 7h às 16h, aos sábados
+-> 7h às 13h, aos domingos
+
+------ 
+HEMOCE PRAÇA DAS FLORES
+Av. Desembargador Moreira, sn – Aldeota
+
+Horário de Funcionamento:
+-> 7h às 12h30 e 14h às 16h, de terça a sábado
+
+-----
+
+Contatos para agendamento
+(85) 99681-7597 (WhatsApp) / (85) 32080805
+
 
 Você pode doar sangue em diferentes unidades do HEMOCE espalhadas por Fortaleza. Acesse o site do HEMOCE para verificar o local mais próximo de você:
 https://www.hemoce.ce.gov.br/
